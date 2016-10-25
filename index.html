@@ -31,12 +31,13 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h2>
+        <h1>
+<a id="node-red-home-sprinkler-system" class="anchor" href="#node-red-home-sprinkler-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Node-Red Home Sprinkler System</h1>
+
+<h2>
 <a id="introduction" class="anchor" href="#introduction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Introduction</h2>
 
-<p>I wanted to experiment with Node-Red to develop a web based home sprinkler system.  I choose Node-Red because it.s web based, therefore it could be used using a mobile phone.  I wanted a way to manually control my home sprinkler system and have more control when the lawn is watered.  In addition, I wanted to develop a system that can be expanded in the future (e.g. embed small wireless moisture sensors and have the system report when I need to water the lawn).  </p>
-
-<p>At the moment I just created a Node-Red flow using the node-red-dashboard Node.  I have been using LabVIEW home version for <a href="http://odelayio.github.io/panStamp-IoT-Evaluation/">past projects to provide a GUI</a>.  This project is far from complete, but I.ve only spent several hours of development and was able to prove that Node-Red is a possible solution for this problem.</p>
+<p>This is a home sprinkler system using Node-Red hosted on a Raspberry Pi 3 Model B.  Node-Red the language to use to develop applications (web and/or mobile) for the IoT.  I used the Node-Red-Dashboard Node to implement a GUI to control four (4) area home sprinkler system.  At the moment I just have LEDs attached to the Raspberry PI GPIO, but I plan to use a relay board to control the sprinkler valves. </p>
 
 <p><br></p>
 
@@ -55,7 +56,7 @@
 <h2>
 <a id="node-red-flow" class="anchor" href="#node-red-flow" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Node-Red Flow</h2>
 
-<p>This project includes two flows, and they are linked together through a menu.  The two flows have the following features:</p>
+<p>This project includes two flows, and they are linked together through a menu.</p>
 
 <h4>
 <a id="flow-1--provides-a-way-trigger-the-sprinkler-system-to-turn-on-for-a-configurable-set-of-time" class="anchor" href="#flow-1--provides-a-way-trigger-the-sprinkler-system-to-turn-on-for-a-configurable-set-of-time" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Flow 1 : Provides a way trigger the sprinkler system to turn on for a configurable set of time.</h4>
@@ -65,7 +66,7 @@
 <h4>
 <a id="flow-2--provides-a-way-to-manually-control-the-sprinkler-system-by-using-a-standard-onoff-switch" class="anchor" href="#flow-2--provides-a-way-to-manually-control-the-sprinkler-system-by-using-a-standard-onoff-switch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Flow 2 : Provides a way to manually control the sprinkler system by using a standard ON/OFF switch.</h4>
 
-<p><img src="http://odelay.io/projects/Sprinkler/flow1.jpg" alt="flow2.jpg"></p>
+<p><img src="http://odelay.io/projects/Sprinkler/flow2.jpg" alt="flow2.jpg"></p>
 
 <p><br></p>
 
