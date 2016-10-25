@@ -6,7 +6,7 @@
 
 ## Introduction
 
-This is a home sprinkler system using Node-Red hosted on a Raspberry Pi 3 Model B.  Node-Red the language to use to develop applications (web and/or mobile) for the IoT.  I used the Node-Red-Dashboard Node to implement a GUI to control four (4) area home sprinkler system.  At the moment I just have LEDs attached to the Raspberry PI GPIO, but I plan to use a relay board to control the sprinkler valves. 
+This is a home sprinkler system using Node-Red hosted on a Raspberry Pi 3 Model B.  I used the Node-Red-Dashboard Node to implement a GUI to control a four (4) area home sprinkler system.  At the moment I just have LEDs attached to the Raspberry PI GPIO, but I plan to use a relay board to control the sprinkler valves. 
 
 <br>
 
