@@ -24,11 +24,13 @@ I recently upgraded to a Raspberry Pi 3 and installed Jessie OS.  Node-Red is pr
 This project includes two flows, and they are linked together through a menu.
 
 #### Flow 1 : Provides a way trigger the sprinkler system to turn on for a configurable set of time.
-![flow1](http://odelay.io/projects/Sprinkler/flow1.jpg)
+
+<img src="http://odelay.io/projects/Sprinkler/flow1.jpg" />
+
 
 
 #### Flow 2 : Provides a way to manually control the sprinkler system by using a standard ON/OFF switch.
-![flow2.jpg](http://odelay.io/projects/Sprinkler/flow2.jpg)
+<img src="http://odelay.io/projects/Sprinkler/flow2.jpg" />
 
 
 #### Mobile App GUI
